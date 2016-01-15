@@ -1,0 +1,148 @@
+
+
+$Intro: "../img/preload/intro.jpg";
+$Skills: "../img/preload/skills.jpg";
+$Project-3Roi : "../img/preload/3Roi.jpg";
+$Project-Foocall : "../img/preload/Foocall.jpg";
+$Project-Configurator : "../img/preload/Configurator.jpg";
+$Project-4in1 : "../img/preload/4in1.jpg";
+$Project-Ghost : "../img/preload/Ghost.jpg";
+$Project-MultiDevice : "../img/preload/MultiDevice.jpg";
+$Project-Vodafone : "../img/preload/Vodafone.jpg";
+$Project-Archdaily : "../img/preload/archdaily.jpg";
+$Demo-Optimize : "../img/preload/optimize.jpg";
+$Demo-Radio : "../img/preload/radio.jpg";
+$Demo-Architecture : "../img/preload/architecture.jpg";
+$Contact : "../img/preload/contact.jpg";
+
+section#Intro > div{
+	background-color: #2b334f;
+	background-image: url($Intro);
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-position:bottom center;
+	
+	
+}
+
+section#Skills > div{
+	background-color: #2b334f;
+	background-image: url($Skills);
+	background-size:contain;
+	background-repeat: no-repeat;
+	background-position:center center;
+	
+	
+}
+
+section#Tools > div{
+	background-color: #d4d4d4  !important;
+	background-color: transparent  !important;
+	background-size:cover;
+	background-position:bottom center;
+	
+}
+
+
+section#Project-3Roi > div{
+	background-color: #d4d4d4  !important;
+	background-image: url($Project-3Roi);
+	background-size:contain;
+	background-position:center center;
+	
+}
+
+section#Project-Foocall > div{
+	background-color: #2b334f !important;
+	background-image: url($Project-Foocall);
+	background-size:cover;
+	background-position:center center;
+}
+
+section#Project-Configurator > div{
+	background-color: #f0f0f0 !important;
+	background-image: url($Project-Configurator);
+	background-size:contain;
+	background-position:center center;
+}
+
+
+section#Project-MultiDevice > div{
+	background-color: #f3f4f6 !important;
+	background-image: url($Project-MultiDevice);
+	background-size:contain;
+	background-position:center center;	
+}
+
+section#Project-4in1 > div{
+	background-color: #2b334f;
+	background-image: url($Project-4in1);
+	background-size:cover;
+	background-position:center center;		
+}
+
+section#Project-Ghost > div{
+	background-color: #2b334f;
+	background-image: url($Project-Ghost);	
+}
+
+section#Project-Vodafone > div{
+	background-color: #e5e5e5 !important;
+	background-image: url($Project-Vodafone);
+	background-size:contain;
+	background-position:center center;	
+}
+
+section#Project-Archdaily > div{
+	background-color: #d4d4d4  !important;
+	background-image: url($Project-Archdaily);	
+	background-size:contain;
+	background-position:top center;	
+}
+
+
+
+section#Demo-Optimize > div{
+	background-color: #fff !important;
+	background-image: url($Demo-Optimize);	
+	background-size:cover;
+	background-position:center center;	
+}
+
+section#Demo-Radio > div{
+	background-color: #fff !important;
+	background-image: url($Demo-Radio);	
+	background-size:cover;
+	background-position:center center;	
+}
+
+section#Demo-Architecture > div{
+	background-color: #fff !important;
+	background-image: url($Demo-Architecture);	
+	background-size:cover;
+	background-position:center center;	
+}
+
+
+section#UX > div{
+	background-color: #fff !important;
+	//background-image: url("../img/disciplines.jpg");	
+	background-size:contain;
+	background-position:center center;	
+}
+
+section#Resume > div{
+	background-color: transparent !important;
+	//background-image: url("../img/disciplines.jpg");	
+	background-size:contain;
+	background-position:center center;	
+}
+
+
+
+section#Contact > div{
+	background-image: url($Contact);
+	background-size:contain;
+	background-repeat: no-repeat;
+	background-position:top right;
+	}
